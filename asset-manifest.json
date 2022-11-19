@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/reactportfolioapp/static/css/main.43b9dcd3.css",
-    "main.js": "/reactportfolioapp/static/js/main.5cad6301.js",
+    "main.css": "/reactportfolioapp/static/css/main.d58ecf7a.css",
+    "main.js": "/reactportfolioapp/static/js/main.f8761e33.js",
     "static/media/My_Profile_Pic.JPG": "/reactportfolioapp/static/media/My_Profile_Pic.caa7be0d7275ff4cbb2b.JPG",
+    "static/media/bootstrap.png": "/reactportfolioapp/static/media/bootstrap.064837840a9d057ad01e.png",
+    "static/media/heroku.png": "/reactportfolioapp/static/media/heroku.23b5d26f1395e984b9eb.png",
+    "static/media/jest.png": "/reactportfolioapp/static/media/jest.9d87416f84101124b0aa.png",
     "static/media/logo_github.png": "/reactportfolioapp/static/media/logo_github.dea49d48a3e47344edfe.png",
+    "static/media/handlebars.png": "/reactportfolioapp/static/media/handlebars.0121a4ca40e601c8f2f1.png",
+    "static/media/react.png": "/reactportfolioapp/static/media/react.20adfb35ae6a6e5817bf.png",
     "static/media/logo_gmail.png": "/reactportfolioapp/static/media/logo_gmail.b3f878e73d4f56ee60f7.png",
     "static/media/logo_linkedin.png": "/reactportfolioapp/static/media/logo_linkedin.2fc49dd7180e4500e24f.png",
+    "static/media/express.png": "/reactportfolioapp/static/media/express.39a0f4c3d981885c64f8.png",
+    "static/media/node-js.png": "/reactportfolioapp/static/media/node-js.478c590a266bed215577.png",
+    "static/media/jquery.png": "/reactportfolioapp/static/media/jquery.347f93d8463ec15aa303.png",
+    "static/media/download-document.png": "/reactportfolioapp/static/media/download-document.088527e8c8bde5cb9153.png",
+    "static/media/materialize.png": "/reactportfolioapp/static/media/materialize.e11a436f774db2c576b6.png",
+    "static/media/sequelize.png": "/reactportfolioapp/static/media/sequelize.d98b2554b49e415e0c08.png",
+    "static/media/inquirer-js.PNG": "/reactportfolioapp/static/media/inquirer-js.143f160db19a73851d28.PNG",
     "index.html": "/reactportfolioapp/index.html",
-    "main.43b9dcd3.css.map": "/reactportfolioapp/static/css/main.43b9dcd3.css.map",
-    "main.5cad6301.js.map": "/reactportfolioapp/static/js/main.5cad6301.js.map"
+    "main.d58ecf7a.css.map": "/reactportfolioapp/static/css/main.d58ecf7a.css.map",
+    "main.f8761e33.js.map": "/reactportfolioapp/static/js/main.f8761e33.js.map"
   },
   "entrypoints": [
-    "static/css/main.43b9dcd3.css",
-    "static/js/main.5cad6301.js"
+    "static/css/main.d58ecf7a.css",
+    "static/js/main.f8761e33.js"
   ]
 }
