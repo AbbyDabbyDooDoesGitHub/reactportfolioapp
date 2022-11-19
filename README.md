@@ -103,6 +103,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - [npm](https://www.npmjs.com/)
 - [GitHub Pages](https://pages.github.com/)
 
+### Icons
+- Resume Download Icon: [Download Document by joeartcon from the Noun Project](https://thenounproject.com/browse/icons/term/download-document/)
+
 
 
 <!-- Any additional notes here  -->

@@ -152,6 +152,10 @@ body h2 {
     padding: 10px;
 }
 
+div.content {
+    width: 100%;
+}
+
 /* creates the title part of the cards to the left of each section */
 .content_heading {
     width:150px;
@@ -208,7 +212,7 @@ body h2 {
 
 /* image cards for work section */
 .content_image_cards {
-    border:none;
+    border: none;
     display: flex;
     flex-wrap: wrap;
 }
@@ -310,6 +314,105 @@ body h2 {
 #featured_mobile {
     display: none;
 }
+
+/* RESUME SECTION ----------------------------------------------------------- */
+#resume-download {
+    width:100px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#resume-download-icon {
+    width:100px;
+}
+
+#resume-content {
+    width: 100%;
+    display: inline-flex;
+}
+
+#resume-center {
+    width: 50%;
+}
+
+#resume-left {
+    width: 100px;
+    opacity: .85;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+}
+
+#resume-left:hover {
+    opacity: .65;
+}
+
+#resume-right {
+    padding-left: 10px;
+}
+
+h4#resume-right-h4 {
+    padding-left: 10px;
+}
+
+ul#resume-right {
+    padding: 0px;
+    margin: 0px;
+}
+li.resume-right-li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.skill_icons {
+    max-height: 55px;
+    max-width: 55px;
+    margin:0;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-bottom: 0%;
+}
+
+.skill_label {
+    width: 100px;
+    margin:auto;
+    padding: 0;
+    line-height: 0;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.skill-links {
+    margin: 5px;
+    text-decoration: none;
+    width: 125px;
+    height: 85px;
+
+    color: rgb(163, 158, 162);
+    color: rgb(97, 97, 97);
+}
+
+.skill-links:hover {
+    opacity: 1;
+    color: rgb(163, 158, 162);
+}
+
+.skill-content-div {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+    background-color: rgb(39, 39, 39);
+    
+    width: 100%;
+    padding-top: 10px;
+
+    line-height: 1.5;
+    text-align: center;
+}
+
 
 /* Screen Sizing Formats */
 

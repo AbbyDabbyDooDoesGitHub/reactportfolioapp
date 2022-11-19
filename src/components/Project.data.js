@@ -171,7 +171,7 @@ const data = [
     {
       id: 14,
       title: "Anatomy of a Hex Regex",
-      subtitle: "Practiced Writing about Code in GitHub Gist",
+      subtitle: "Writing about Code in GitHub Gist",
       repoLink: "https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk17_RegexTutorial-WritingAboutCode",
       liveLink: "https://gist.github.com/AbbyDabbyDooDoesGitHub/03a7b598c464ac1872a66e4309b6a48b",
       featImg: "/assets/imgs/_project-imgs/HexRegex_screenshot_361by150.png",
