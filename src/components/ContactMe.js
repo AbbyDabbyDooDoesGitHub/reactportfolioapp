@@ -5,27 +5,41 @@ const ContactMe = () => {
 
   return (
     <>
-        <div id="Resume" class="section">
+        <div id="Contact_Me" class="section">
             <div>
                 <h3 class="content_heading">Contact Me</h3>
             </div>
     
             <div class="content">
                 <div id="Contact_Me_Content">
-                    <ul class="Contact_Me_Content">
-                        <li class="Contact_Me_Content"><a href="https://github.com/AbbyDabbyDooDoesGitHub" target="_blank" rel="noreferrer">
-                            <img class="contact_icons" src={require("../assets/imgs/_icons/logo_github.png")} alt="GitHub Logo Icon"/>
-                        </a></li>
 
-                        <li class="Contact_Me_Content"><a href="https://www.linkedin.com/in/abigailcdouglas/" target="_blank" rel="noreferrer">
-                            <img class="contact_icons" src={require("../assets/imgs/_icons/logo_linkedin.png")} alt="LinkedIn Logo Icon"/>
-                        </a></li>
+                    <div class="row">
+                        <form class="col s12">
 
-                        <li class="Contact_Me_Content"><a href="mailto: ItsAbigailDouglas@gmail.com">
-                            <img class="contact_icons" src={require("../assets/imgs/_icons/logo_gmail.png")} alt="Gmail Logo Icon"/>
-                        </a></li>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                <input placeholder="Your Name Here" id="contact_name" type="text" class="validate"/>
+                                <label for="contact_name">Name</label>
+                                </div>
+                            </div>
 
-                    </ul>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                <input id="contact_email" type="email" class="validate"/>
+                                <label for="contact_email">Email</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s12">
+                                <input id="contact_message" type="text"/>
+                                <label for="contact_message">Message</label>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+        
                 </div>
             </div>
     

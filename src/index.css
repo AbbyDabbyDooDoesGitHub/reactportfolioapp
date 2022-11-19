@@ -297,10 +297,10 @@ div.content {
 
 } 
 
-#Contact_Me_Content {
+/* #Contact_Me_Content {
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 /* format the icons for github / linked in / email */
 .contact_icons {

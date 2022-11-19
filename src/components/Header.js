@@ -19,7 +19,7 @@ const Header = () => {
             <p>|</p>
             <li><a href="#Contact_Me">Contact Me</a></li>
             <p>|</p>
-            <li><a href="./assets/downloads/ADouglas_LinkedIn_Resume.pdf" download>Resume</a></li>
+            <li><a href="#Resume">Resume</a></li>
           </ul>
         </nav>
       </header> 
