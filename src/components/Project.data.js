@@ -12,29 +12,29 @@ const data = [
       featured: false,
     },
 
-    {
-      id: 1,
-      title: "Password Generator",
-      subtitle: "User Input, Alert/Confirm Windows, & Random Characters",
-      repoLink: "https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk03_PasswordGenerator",
-      liveLink: "https://abbydabbydoodoesgithub.github.io/UW_ChWk03_PasswordGenerator/",
-      featImg: "/assets/imgs/_project-imgs/PasswordGen_Screenshot_361by150.png",
-      mobileFeatOrStdImg: "/assets/imgs/_project-imgs/PasswordGen_Screenshot_262by175.png",
-      altImg: "Preview of the Password Generator Web Application",
-      featured: false,
-    },
+    // {
+    //   id: 1,
+    //   title: "Password Generator",
+    //   subtitle: "User Input, Alert/Confirm Windows, & Random Characters",
+    //   repoLink: "https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk03_PasswordGenerator",
+    //   liveLink: "https://abbydabbydoodoesgithub.github.io/UW_ChWk03_PasswordGenerator/",
+    //   featImg: "/assets/imgs/_project-imgs/PasswordGen_Screenshot_361by150.png",
+    //   mobileFeatOrStdImg: "/assets/imgs/_project-imgs/PasswordGen_Screenshot_262by175.png",
+    //   altImg: "Preview of the Password Generator Web Application",
+    //   featured: false,
+    // },
 
-    {
-      id: 2,
-      title: "Web Accessibility Features",
-      subtitle: "Add Accessibility Features, Adjust Layout, & Ensure Proper Functionality",
-      repoLink: "https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk01_WebAccessibilityFeatures",
-      liveLink: "https://abbydabbydoodoesgithub.github.io/UW_ChWk01_WebAccessibilityFeatures/",
-      featImg: "/assets/imgs/_project-imgs/Accessibility_Screenshot_361by150.PNG",
-      mobileFeatOrStdImg: "/assets/imgs/_project-imgs/Accessibility_Screenshot_262by175.PNG",
-      altImg: "Preview of the Page Worked on for Accessibility Features (A Fake Company Landing Page)",
-      featured: false,
-    },
+    // {
+    //   id: 2,
+    //   title: "Web Accessibility Features",
+    //   subtitle: "Add Accessibility Features, Adjust Layout, & Ensure Proper Functionality",
+    //   repoLink: "https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk01_WebAccessibilityFeatures",
+    //   liveLink: "https://abbydabbydoodoesgithub.github.io/UW_ChWk01_WebAccessibilityFeatures/",
+    //   featImg: "/assets/imgs/_project-imgs/Accessibility_Screenshot_361by150.PNG",
+    //   mobileFeatOrStdImg: "/assets/imgs/_project-imgs/Accessibility_Screenshot_262by175.PNG",
+    //   altImg: "Preview of the Page Worked on for Accessibility Features (A Fake Company Landing Page)",
+    //   featured: false,
+    // },
 
     {
       id: 3,
@@ -48,29 +48,29 @@ const data = [
       featured: true,
     },
 
-    {
-      id: 4,
-      title: "HTML & CSS Portfolio",
-      subtitle: "Professional Portfolio using html, css, & js",
-      repoLink: "https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk02_MyProfessionalPortfolio",
-      liveLink: "https://abbydabbydoodoesgithub.github.io/UW_ChWk02_MyProfessionalPortfolio/",
-      featImg: "/assets/imgs/_project-imgs/HTMLPortfolio_screenshot_361by150.png",
-      mobileFeatOrStdImg: "/assets/imgs/_project-imgs/HTMLPortfolio_screenshot_262by175.png",
-      altImg: "Preview of the HTML Portfolio",
-      featured: false,
-    },
+    // {
+    //   id: 4,
+    //   title: "HTML & CSS Portfolio",
+    //   subtitle: "Professional Portfolio using html, css, & js",
+    //   repoLink: "https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk02_MyProfessionalPortfolio",
+    //   liveLink: "https://abbydabbydoodoesgithub.github.io/UW_ChWk02_MyProfessionalPortfolio/",
+    //   featImg: "/assets/imgs/_project-imgs/HTMLPortfolio_screenshot_361by150.png",
+    //   mobileFeatOrStdImg: "/assets/imgs/_project-imgs/HTMLPortfolio_screenshot_262by175.png",
+    //   altImg: "Preview of the HTML Portfolio",
+    //   featured: false,
+    // },
 
-    {
-      id: 5,
-      title: "Interactive Quiz",
-      subtitle: "Interactive quiz featuring a timer functionality",
-      repoLink: "https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk04_InteractiveQuiz",
-      liveLink: "https://abbydabbydoodoesgithub.github.io/UW_ChWk04_InteractiveQuiz/",
-      featImg: "/assets/imgs/_project-imgs/InteractiveQuiz_screenshot_361by150.png",
-      mobileFeatOrStdImg: "/assets/imgs/_project-imgs/InteractiveQuiz_screenshot_262by175.png",
-      altImg: "Preview of the Interactive Quiz",
-      featured: false,
-    },
+    // {
+    //   id: 5,
+    //   title: "Interactive Quiz",
+    //   subtitle: "Interactive quiz featuring a timer functionality",
+    //   repoLink: "https://github.com/AbbyDabbyDooDoesGitHub/UW_ChWk04_InteractiveQuiz",
+    //   liveLink: "https://abbydabbydoodoesgithub.github.io/UW_ChWk04_InteractiveQuiz/",
+    //   featImg: "/assets/imgs/_project-imgs/InteractiveQuiz_screenshot_361by150.png",
+    //   mobileFeatOrStdImg: "/assets/imgs/_project-imgs/InteractiveQuiz_screenshot_262by175.png",
+    //   altImg: "Preview of the Interactive Quiz",
+    //   featured: false,
+    // },
 
     {
       id: 6,
@@ -120,7 +120,7 @@ const data = [
       featured: false,
     },
 
-    // {
+    //! {
     //   id: 10,
     //   title: "Note Taker",
     //   subtitle: "Note Taker using Express.js",
@@ -132,7 +132,7 @@ const data = [
     //   featured: false,
     // },
 
-    // {
+    //! {
     //   id: 11,
     //   title: "Employee Tracker",
     //   subtitle: "Command Line Interface using Node.js, Inquirer.js, & MySQL",
@@ -144,7 +144,7 @@ const data = [
     //   featured: false,
     // },
 
-    // {
+    //! {
     //   id: 12,
     //   title: "E-Commerce BackEnd",
     //   subtitle: "Express.js API using Sequelize to interact with MySQL database",
@@ -156,7 +156,7 @@ const data = [
     //   featured: false,
     // },
 
-    // {
+    //! {
     //   id: 13,
     //   title: "Tech Blog",
     //   subtitle: "CMS-style blog site following MVC paradigm",
@@ -180,7 +180,7 @@ const data = [
       featured: false,
     },
 
-    // {
+    //! {
     //   id: 15,
     //   title: "Social Network API",
     //   subtitle: "Social Network API using Express.js, Mongoose, & MongoDB",
@@ -192,7 +192,7 @@ const data = [
     //   featured: false,
     // },
 
-    // {
+    //! {
     //   id: 16,
     //   title: "Text Editor",
     //   subtitle: "Progressive Web Applications",
@@ -204,7 +204,7 @@ const data = [
     //   featured: false,
     // },
 
-    // {
+    //! {
     //   id: 17,
     //   title: "Book Search Engine",
     //   subtitle: "",
@@ -216,7 +216,7 @@ const data = [
     //   featured: false,
     // },
 
-    // {
+    //! {
     //   id: 18,
     //   title: "",
     //   subtitle: "",
@@ -228,7 +228,7 @@ const data = [
     //   featured: false,
     // },
 
-    // {
+    //! {
     //   id: 19,
     //   title: "",
     //   subtitle: "",
@@ -240,7 +240,7 @@ const data = [
     //   featured: false,
     // },
 
-    // {
+    //! {
     //   id: 20,
     //   title: "Project Review App",
     //   subtitle: "",
@@ -252,17 +252,17 @@ const data = [
     //   featured: false,
     // },
 
-    {
-      id: 21,
-      title: "React.js Portfolio",
-      subtitle: "Checkout the GitHub Repo for this Portfolio!",
-      repoLink: "https://github.com/AbbyDabbyDooDoesGitHub/reactportfolioapp",
-      liveLink: "",
-      featImg: "/assets/imgs/_project-imgs/HTMLPortfolio_screenshot_361by150.png",
-      mobileFeatOrStdImg: "/assets/imgs/_project-imgs/HTMLPortfolio_screenshot_262by175.png",
-      altImg: "Preview of the React.js Portfolio",
-      featured: false,
-    },
+    // {
+    //   id: 21,
+    //   title: "React.js Portfolio",
+    //   subtitle: "Checkout the GitHub Repo for this Portfolio!",
+    //   repoLink: "https://github.com/AbbyDabbyDooDoesGitHub/reactportfolioapp",
+    //   liveLink: "",
+    //   featImg: "/assets/imgs/_project-imgs/HTMLPortfolio_screenshot_361by150.png",
+    //   mobileFeatOrStdImg: "/assets/imgs/_project-imgs/HTMLPortfolio_screenshot_262by175.png",
+    //   altImg: "Preview of the React.js Portfolio",
+    //   featured: false,
+    // },
 
 
   ];
