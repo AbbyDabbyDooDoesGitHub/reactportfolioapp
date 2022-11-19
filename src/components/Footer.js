@@ -5,9 +5,31 @@ const Footer = () => {
 
   return (
     <>
-        <footer>
-            <p>Thanks for visiting. Have a lovely day!</p>
-        </footer>
+      <div class="footer">
+        <div id="footer-content">
+          <ul id="footer-links-div">
+            
+            <li>
+              <a href="https://github.com/AbbyDabbyDooDoesGitHub" target="_blank" rel="noreferrer">
+                <img class="contact_icons" src={require("../assets/imgs/_icons/logo_github_icon_143196.png")} alt="GitHub Logo Icon"/>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/abigailcdouglas/" target="_blank" rel="noreferrer">
+                <img class="contact_icons" src={require("../assets/imgs/_icons/logo_linkedin_icon_143191.png")} alt="LinkedIn Logo Icon"/>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto: ItsAbigailDouglas@gmail.com">
+                <img class="contact_icons" src={require("../assets/imgs/_icons/logo_gmail_envelope_letter_email_icon_143171.png")} alt="Gmail Logo Icon"/>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
     </>
 
   );

@@ -57,7 +57,7 @@ header {
 }
 
 /* FOOTER */
-footer {
+.footer {
     padding: 4vw;
     padding-top: 15px;
     padding-bottom: 25px;
@@ -67,13 +67,27 @@ footer {
     background-color: rgb(32, 22, 56);
 }
 
-footer p {
+.footer p {
     color:rgba(255, 255, 255, 0.4);
     /* font-style: italic; */
     font-size: 14px;
 
     display: flex;
     justify-content: center;
+}
+
+#footer-content {
+    margin: auto;
+}
+
+#footer-content ul{
+    margin: auto;
+}
+
+#footer-links-div {
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
 
 /* makes it so there's no underline under the hyperlink */
