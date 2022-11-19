@@ -49,12 +49,13 @@ export default function Home() {
                 <div class="content">
 
                         {/* Go through list of projetcs and map them each to their own Project component */}
-                        {data.map(({ id, title, subtitle, repoLink, featImg, altImg, featured }) => (
+                        {data.map(({ id, title, subtitle, repoLink, liveLink, featImg, altImg, featured }) => (
                             <ProjectFeatured
                                 id={id}
                                 title={title}
                                 subtitle={subtitle}
                                 repoLink={repoLink}
+                                liveLink={liveLink}
                                 featImg={featImg}
                                 altImg={altImg}
                                 featured={featured}
@@ -62,12 +63,13 @@ export default function Home() {
                         ))}
 
                         {/* Go through list of projetcs and map them each to their own Project component */}
-                        {data.map(({ id, title, subtitle, repoLink, mobileFeatOrStdImg, altImg, featured }) => (
+                        {data.map(({ id, title, subtitle, repoLink, liveLink, mobileFeatOrStdImg, altImg, featured }) => (
                             <ProjectFeaturedMobile
                                 id={id}
                                 title={title}
                                 subtitle={subtitle}
                                 repoLink={repoLink}
+                                liveLink={liveLink}
                                 mobileFeatOrStdImg={mobileFeatOrStdImg}
                                 altImg={altImg}
                                 featured={featured}
@@ -77,12 +79,13 @@ export default function Home() {
                     <div class="content_image_cards">
 
                         {/* Go through list of projetcs and map them each to their own Project component */}
-                        {data.map(({ id, title, subtitle, repoLink, mobileFeatOrStdImg, altImg, featured }) => (
+                        {data.map(({ id, title, subtitle, repoLink, liveLink, mobileFeatOrStdImg, altImg, featured }) => (
                             <ProjectNormal
                                 id={id}
                                 title={title}
                                 subtitle={subtitle}
                                 repoLink={repoLink}
+                                liveLink={liveLink}
                                 mobileFeatOrStdImg={mobileFeatOrStdImg}
                                 altImg={altImg}
                                 featured={featured}

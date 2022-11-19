@@ -2,7 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 
 // PROJECT CARDS
-export default function ProjectFeaturedMobile({ id, title, subtitle, repoLink, mobileFeatOrStdImg, altImg, featured }) {
+export default function ProjectFeaturedMobile({ id, title, subtitle, repoLink, liveLink, mobileFeatOrStdImg, altImg, featured }) {
 
   if (featured === false) {
 

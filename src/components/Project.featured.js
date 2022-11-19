@@ -2,7 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 
 // PROJECT CARDS
-export default function ProjectFeatured({ id, title, subtitle, repoLink, featImg, altImg, featured }) {
+export default function ProjectFeatured({ id, title, subtitle, repoLink, liveLink, featImg, altImg, featured }) {
 
   if (featured === false) {
 
@@ -12,7 +12,7 @@ export default function ProjectFeatured({ id, title, subtitle, repoLink, featImg
     
     return (
 
-      <a id="featured_standard" href={repoLink} target="_blank" rel="noreferrer">
+      <a id="featured_standard" href={repoLink} target="_blank" onclick="window.open('http://google.com')">
         <div class="work_ex_card_feat featured_work" key={id}>
             <img class="featured_work content_images" src={`${process.env.PUBLIC_URL}${featImg}`} alt={altImg}/>
             <h4>{title}
