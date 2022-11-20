@@ -14,7 +14,7 @@ export default function ProjectFeaturedMobile({ id, title, subtitle, repoLink, l
       
       <a id="featured_mobile" href={repoLink} target="_blank" rel="noreferrer">
         <div class="work_ex_card_feat featured_work" key={id}>
-            <img class="featured_work content_images" src={require("../assets/imgs/generic_purple_361by150.jpg")}/>
+            <img class="featured_work content_images" src={require("../assets/imgs/generic_purple_262by175.jpg")}/>
             <h4>{title}
                 <br/>
                 <p>{subtitle}</p>
