@@ -418,8 +418,78 @@ li.resume-right-li {
 }
 
 
-/* Screen Sizing Formats */
+/* CONTACT ME --------------------------------------------------------------- */
+#contactForm-div {
+    width: 100%;
+    /* background-color: aqua; */
+}
 
+form {
+    padding-right: 20px;
+    padding-left: 20px;
+    /* background-color: blue; */
+} 
+
+.contactForm-info-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contactForm-info-div label {
+    font-size: 12px;
+    font-weight: bold;
+
+    color: rgb(39, 39, 39);
+
+}
+
+input#contact_name.validate {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    border-color: #00000000;
+    background-color: #00000000;
+    border-bottom: 2px solid rgb(163, 158, 162);
+}
+
+input#contact_email.validate {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    border-color: #00000000;
+    background-color: #00000000;
+    border-bottom: 2px solid rgb(163, 158, 162);
+}
+
+input#contact_message {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    border-color: #00000000;
+    background-color: #00000000;
+    border-bottom: 2px solid rgb(163, 158, 162);
+}
+
+#contact-submitBtn {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding:6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: rgb(32, 22, 56);
+}
+
+#contact-submitBtn:hover {
+    opacity: .75;
+}
+
+
+
+
+/*! Screen Sizing Formats */
 @media only screen and (max-width: 955px) {
     #header {
         padding-bottom: 30px;
