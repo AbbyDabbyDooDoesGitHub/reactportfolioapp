@@ -1,4 +1,4 @@
-git pushimport React from 'react';
+import React from 'react';
 
 import AboutMe from '../components/AboutMe'
 
