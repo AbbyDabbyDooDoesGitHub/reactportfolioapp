@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AboutMe from '../components/AboutMe'
+import Resume from '../components/Resume'
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
 
         <main>
 
-            <AboutMe />
+            <Resume />
 
         </main>
 

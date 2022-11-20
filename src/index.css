@@ -40,7 +40,7 @@
 
 /*! MAIN STYLING */
  /* HEADER */
-header {
+#header {
     padding: 4vw;
     padding-top: 50px;
     padding-bottom: 10px;
@@ -57,6 +57,10 @@ header {
 }
 
 /* FOOTER */
+#allButFooter-div {
+    min-height: calc(100vh - 113px);
+}
+
 .footer {
     padding: 4vw;
     padding-top: 15px;
@@ -91,7 +95,7 @@ header {
 }
 
 /* makes it so there's no underline under the hyperlink */
-header a {
+#header a {
     text-decoration: none;
 }
 a:hover {
@@ -99,7 +103,7 @@ a:hover {
 }
 
 /* puts header into row not column and changes font color */
-header h1,nav,p,li,ul,a {
+#header h1,nav,p,li,ul,a {
     display: inline-block;
 
     color: aliceblue;
@@ -118,7 +122,7 @@ h1 {
 }
 
 /* adds padding on either side of the "|" in the heading nav links */
-header p {
+#header p {
     padding-right: 18px;
     padding-left: 18px;
 }
@@ -417,7 +421,7 @@ li.resume-right-li {
 /* Screen Sizing Formats */
 
 @media only screen and (max-width: 955px) {
-    header {
+    #header {
         padding-bottom: 30px;
     }
 
@@ -435,7 +439,7 @@ li.resume-right-li {
     }
 
     /* adds padding on either side of the "|" in the heading nav links */
-    header p {
+    #header p {
         padding-right: 9px;
         padding-left: 9px;
     }

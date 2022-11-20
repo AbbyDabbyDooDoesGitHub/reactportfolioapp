@@ -1,8 +1,8 @@
 import React from 'react';
 
-import AboutMe from '../components/AboutMe'
+import ContactMeComp from '../components/ContactMe'
 
-export default function Home() {
+export default function ContactMe() {
   return (
     <React.Fragment>
 
@@ -10,7 +10,7 @@ export default function Home() {
 
         <main>
 
-            <AboutMe />
+            <ContactMeComp />
 
         </main>
 

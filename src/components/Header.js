@@ -5,7 +5,7 @@ const Header = () => {
 
   return (
     <>
-      <header>
+      <div id="header">
         <h1>Abigail Douglas</h1>
 
         <br  class="header_mobile_br"/>
@@ -13,16 +13,16 @@ const Header = () => {
 
         <nav class="head_nav">
           <ul>
-            <li><a href="#About_Me">About Me</a></li>
+            <li><a href="/">About Me</a></li>
             <p>|</p>
-            <li><a href="#Work">My Work</a></li>
+            <li><a href="/Portfolio">My Work</a></li>
             <p>|</p>
-            <li><a href="#Contact_Me">Contact Me</a></li>
+            <li><a href="/ContactMe">Contact Me</a></li>
             <p>|</p>
-            <li><a href="#Resume">Resume</a></li>
+            <li><a href="/Resume">Resume</a></li>
           </ul>
         </nav>
-      </header> 
+      </div> 
 
       <subheader>
         <div>

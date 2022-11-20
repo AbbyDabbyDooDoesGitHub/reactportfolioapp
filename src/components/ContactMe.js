@@ -1,10 +1,11 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 
-const ContactMe = () => {
+const ContactMeComp = () => {
 
   return (
     <>
+
         <div id="Contact_Me" class="section">
             <div>
                 <h3 class="content_heading">Contact Me</h3>
@@ -50,4 +51,4 @@ const ContactMe = () => {
 
 };
 
-export default ContactMe;
+export default ContactMeComp;

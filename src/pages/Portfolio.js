@@ -1,8 +1,8 @@
 import React from 'react';
 
-import AboutMe from '../components/AboutMe'
+import Project from '../components/Project'
 
-export default function Home() {
+export default function Portfolio() {
   return (
     <React.Fragment>
 
@@ -10,7 +10,7 @@ export default function Home() {
 
         <main>
 
-            <AboutMe />
+            <Project />
 
         </main>
 
