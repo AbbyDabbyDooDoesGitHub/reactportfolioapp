@@ -14,7 +14,7 @@ export default function ProjectFeatured({ id, title, subtitle, repoLink, liveLin
 
       <a id="featured_standard" href={repoLink} target="_blank" rel="noreferrer">
         <div class="work_ex_card_feat featured_work" key={id}>
-            <img class="featured_work content_images" src={`${process.env.PUBLIC_URL}${featImg}`} alt={altImg}/>
+            <img class="featured_work content_images" src={require("../assets/imgs/generic_purple_262by175.jpg")} alt={altImg}/>
             <h4>{title}
                 <br/>
                 <p>{subtitle}</p>

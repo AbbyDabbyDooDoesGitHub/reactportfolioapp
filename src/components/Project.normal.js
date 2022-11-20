@@ -15,7 +15,7 @@ export default function ProjectNormal({ id, title, subtitle, repoLink, liveLink,
       <a href={repoLink} target="_blank" rel="noreferrer">
   
         <div class="work_ex_card" key={id}>
-          <img class="content_images" src={`${process.env.PUBLIC_URL}${mobileFeatOrStdImg}`} alt={altImg}/>
+          <img class="content_images" src={require("../assets/imgs/generic_purple_262by175.jpg")} alt={altImg}/>
           <h4>
             {title}
             <br/>
