@@ -18,8 +18,6 @@ function App() {
     <div className='App'>
 
       <Router>
-        
-        <div id="allButFooter-div">
 
           <Header />
 
@@ -44,8 +42,6 @@ function App() {
             />
 
           </Routes>
-        
-        </div>
 
         <Footer />
 
