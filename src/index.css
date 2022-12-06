@@ -102,6 +102,10 @@ a:hover {
     opacity: .7;
 }
 
+#HomeLink:hover {
+    opacity: 1;
+}
+
 /* puts header into row not column and changes font color */
 #header h1,nav,p,li,ul,a {
     display: inline-block;
