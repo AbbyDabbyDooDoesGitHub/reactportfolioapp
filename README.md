@@ -76,6 +76,10 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 <!--! https://www.iconfinder.com/search/icons?family=coco-line -->
 
+<!--! noun-coding-3821309  
+https://thenounproject.com/icon/coding-3821309/ 
+coding by Fernanddo Santtander from <a href="https://thenounproject.com/browse/icons/term/coding/" target="_blank" title="coding Icons">Noun Project</a> -->
+
 
 <!-- WHEN I am presented with the Portfolio section
 THEN I see titled images of six of the developer’s applications with  -->
